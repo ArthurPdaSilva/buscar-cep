@@ -1,0 +1,19 @@
+.result {
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 15px;
+}
+
+ul, li {
+    width: 100%;
+}
+
+span {
+    font-weight: bold;
+    color: #0D3B66;
+}

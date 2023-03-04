@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body, html, #root {
+    height: 100%;
+    font-family: 'Poppins', serif;
+    width: 100%;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background: #0D3B66;
+}
+
+ul {
+    list-style: none;
+}
+
+.components {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #F9F9F9;
+    border-radius: 10px;
+    padding: 10px;
+    height: 60vh;
+    width: 35vw;
+}
+
+.components h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #0D3B66 !important;
+}
+
+@media(max-width: 800px) {
+    .components h1 {
+        font-size: 2rem;
+    }
+
+    .app {
+        flex-direction: column;
+    }
+
+    .components {
+        width: 80%;
+        height: 50%;
+    }
+}
