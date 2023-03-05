@@ -47,10 +47,11 @@ ul {
 
     .app {
         flex-direction: column;
+        gap: 10px;
     }
 
     .components {
-        width: 80%;
+        width: 90%;
         height: 50%;
     }
 }
