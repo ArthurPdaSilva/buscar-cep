@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import './result.css';
 import useCEP from '../../hooks/useCEP';
 import api from '../../services/api';
 import CEP from '../../@types/CEPType';
+import './result.css';
 
 export default function Result() {
   const { cep, setCep } = useCEP();
